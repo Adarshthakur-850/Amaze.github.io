@@ -780,10 +780,12 @@ h4 {
     .box1 {
         width: 150px;
 
+
     }
 
     .box1 h5 {
         line-height: normal;
+        padding: 5px;
     }
 
 
