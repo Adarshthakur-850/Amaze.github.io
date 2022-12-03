@@ -802,4 +802,190 @@ h4 {
         padding: 12px 15px;
     }
 
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* for shop section */
+
+.SHOP-HEAD {
+    background-image: url("shopimages/b1.jpg");
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+
+.SHOP-HEAD h2,
+.SHOP-HEAD p {
+    color: #fff;
+
+}
+
+
+
+
+
+
+/* for single page */
+.lar-img {
+    width: 40%;
+    height: 50%;
+    margin-right: 50px;
+    margin-left: 50px;
+
+}
+
+.smallgrp img {
+    height: 100%;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.img-col {
+    flex-basis: 24%;
+    border-left: 2px solid black;
+    border-radius: 20px;
+}
+
+.smallgrp {
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    border-radius: 20px;
+}
+
+.proimage {
+
+    display: flex;
+    margin-top: 20px;
+
+}
+
+.img-det {
+    width: 50%;
+    padding-top: 50px;
+}
+
+.img-det h4 {
+    padding: 40px 0 20px 0;
+}
+
+.img-det h2 {
+    font-size: 26px;
+}
+
+.img-det select {
+    display: block;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+
+.img-det input {
+    width: 50px;
+    height: 47px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+    outline: none;
+}
+
+.img-det button {
+    background-color: #088178;
+    color: #fff;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.img-det span {
+    line-height: 25px;
+}
+
+#sinsection {
+    margin-top: 50px;
+}
+
+
+@media (max-width:500px) {
+    .proimage {
+        flex-direction: column;
+    }
+
+    .lar-img {
+        width: 100%;
+        margin: 0px;
+    }
+
+    .img-det {
+        width: 100%;
+    }
+}
+
+
+
+
+
+/* about us */
+
+#about-head {
+    background-image: url('/aboutusimages/banner.png');
+
+}
+
+.about-body {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.about-body div {
+    padding-left: 40px;
+    line-height: 25px;
+}
+
+
+.about-body img {
+    width: 50%;
+    height: auto;
+}
+
+@media (max-width:600px) {
+
+    .about-body {
+        flex-direction: column;
+    }
+
+    .about-body img {
+        width: 100%;
+    }
+
+    .about-body div {
+        padding-left: 2px;
+        padding-top: 20px;
+
+    }
+
 }
