@@ -5,7 +5,7 @@ body {
 .bg-image {
 
     height: 40vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("/contactimages/bgimg.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("contactimages/bgimg.jpg");
     background-position: left 50% top 20%;
     background-repeat: no-repeat;
     text-align: center;
